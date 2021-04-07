@@ -1,0 +1,43 @@
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.habit {
+  font-size: 3rem;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(93, 180, 71);
+  line-height: 3rem;
+  margin: 0 0.2em 0 0.5em;
+  border-radius: 50%;
+  color: white;
+}
+
+.habit-button {
+  font-size: 3rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.5;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: pink;
+}
+
+.habit-delete {
+  color: red;
+}
