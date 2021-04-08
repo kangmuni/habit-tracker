@@ -4,6 +4,37 @@ button {
   cursor: pointer;
 }
 
+.add-form {
+  margin: 1rem;
+}
+
+.add-input {
+  font-size: 2rem;
+}
+
+.add-button {
+  height: 100%;
+  font-size: 2rem;
+  margin-left: 0.2rem;
+  padding: 0.1em 0.5em;
+  color: white;
+  background-color: rgb(93, 180, 71);
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 1em;
+  background-color: rgb(237, 246, 153);
+}
+
+.navbar-logo {
+  margin-left: 0.5em;
+}
+
+.navbar-count {
+  margin-left: 0.5em;
+}
+
 .habit {
   font-size: 3rem;
   padding: 0.5em;
